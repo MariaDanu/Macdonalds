@@ -5,5 +5,4 @@ using UnityEngine;
 public class Bun_pSlot : MonoBehaviour
 {
     public SpriteRenderer Renderer;
-   // public int SlotIndex = -1;
 }

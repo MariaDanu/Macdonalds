@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
+
 
 public class Bun_p : MonoBehaviour
 {
@@ -8,9 +10,9 @@ public class Bun_p : MonoBehaviour
     private Vector2 _offset, _firstPosition;
 
     [SerializeField] private SpriteRenderer _renderer;
-    
+
     private Bun_pSlot _pslot;
-    
+
     public void Init(Bun_pSlot slot) //метод
     {
         _renderer.sprite = slot.Renderer.sprite;
@@ -24,9 +26,7 @@ public class Bun_p : MonoBehaviour
 
     private void Update()
     {
-        //if(_pslot != null)
         if (_placed) return;
-        //_placed = true;
         if (!_dragging) return;
 
         var mousePosition = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -42,7 +42,7 @@ public class Bun_p : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if(Vector2.Distance(transform.position, _pslot.transform.position) < 3)
+        if (Vector2.Distance(transform.position, _pslot.transform.position) < 3)
         {
             transform.position = _pslot.transform.position;
             _pslot.Placed();
@@ -51,7 +51,6 @@ public class Bun_p : MonoBehaviour
         else
         {
             _dragging = false;
-            //_offset = _pslot.transform.position;
             transform.position = _firstPosition;
         }
     }
@@ -60,4 +59,5 @@ public class Bun_p : MonoBehaviour
     {
         return Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
+
 }
