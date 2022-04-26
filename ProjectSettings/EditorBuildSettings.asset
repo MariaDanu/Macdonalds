@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/load-logo.unity
+    guid: 8931f42473fb7e84c813c75f5f09e64a
+  - enabled: 1
     path: Assets/Scenes/main-scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/load-level.unity
+    guid: 0cf2a5f3b14eb8e4ebe3cca687641678
+  - enabled: 1
     path: Assets/Scenes/chisburger-scene.unity
     guid: a9090a319a2382a4db033e67d2dd0857
+  - enabled: 1
+    path: Assets/Scenes/double_chisburger_scene.unity
+    guid: c75e2bea735ef8f45b3c3d6f4b6dfeb0
   m_configObjects: {}

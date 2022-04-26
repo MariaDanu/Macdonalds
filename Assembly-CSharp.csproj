@@ -57,13 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\text_animation.cs" />
-    <Compile Include="Assets\Scripts\main.cs" />
-    <Compile Include="Assets\Scripts\OnOffelements.cs" />
-    <Compile Include="Assets\Scripts\showpreview.cs" />
-    <Compile Include="Assets\Scripts\menu_text_script.cs" />
     <Compile Include="Assets\Scripts\move_Ingredients_script.cs" />
+    <Compile Include="Assets\Scripts\main.cs" />
+    <Compile Include="Assets\Scripts\showpreview.cs" />
+    <Compile Include="Assets\Scripts\error_burgers.cs" />
     <Compile Include="Assets\Scripts\return_ingredients_pos.cs" />
     <Compile Include="Assets\Scripts\move_mouse_Ingredients_script.cs" />
+    <Compile Include="Assets\Scripts\main_load_level.cs" />
+    <Compile Include="Assets\Scripts\replace_text_name.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
