@@ -50,9 +50,9 @@ public class main : MonoBehaviour
             //вкобчаем объект noname_text
             noname_text.SetActive(true);
             //сохраняем имя как чмо (записываем его в ячейку Name)
-            PlayerPrefs.SetString("Name", ("чмо"));
-            //Изменяем * на чмо в тексте объекта start_text
-            start_text.GetComponent<Text>().text = start_text.GetComponent<Text>().text.Replace("*", "чмо");
+            PlayerPrefs.SetString("Name", ("Неизвестный"));
+            //Изменяем * на неизвестный в тексте объекта start_text
+            start_text.GetComponent<Text>().text = start_text.GetComponent<Text>().text.Replace("*", "Неизвестный");
         }
         //если пользователь ввел имя то
         else

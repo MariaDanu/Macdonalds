@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/double_chisburger_scene.unity
     guid: c75e2bea735ef8f45b3c3d6f4b6dfeb0
+  - enabled: 1
+    path: Assets/Scenes/filet_o_fish.unity
+    guid: ebcbe854286ce4040b18e54c0d8817fd
+  - enabled: 1
+    path: Assets/Scenes/double_filet_o_fish.unity
+    guid: f081822763e8e754a80b0da61ad891b7
   m_configObjects: {}

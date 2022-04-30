@@ -19,6 +19,20 @@ public class main_load_level : MonoBehaviour
         //запускаем сцену под номером 4
         SceneManager.LoadScene(4);
     }
+    //эта функция отвечает за загрузку сцены 'филе о  фиш'
+    public void filet_o_fish_scene()
+    {
+        //запускаем сцену под номером 5
+        SceneManager.LoadScene(5);
+    }
+
+    //эта функция отвечает за загрузку сцены 'двойной филе о  фиш'
+    public void double_filet_o_fish_scene()
+    {
+        //запускаем сцену под номером 6
+        SceneManager.LoadScene(6);
+    }
+
     //эта функция отвечает за кнопку назад 
     public void back_levels_menu()
     {
