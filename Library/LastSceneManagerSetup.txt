@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/chisburger-scene.unity
+- path: Assets/Scenes/load-level.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
